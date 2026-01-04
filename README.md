@@ -21,7 +21,7 @@
 ---
 ## Screenshots
 
-![Chat](screenshots/mainmenu.png)
+![Chat](screenshots/client.png)
 
 
 ---
