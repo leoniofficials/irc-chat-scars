@@ -2,7 +2,7 @@
     
 ![ICR SCARS](screenshots/scars.png)
 
-# Bitch-X Terminal Chat
+# ICR Chat Scars
 
 </div>
 
