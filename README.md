@@ -1,6 +1,6 @@
 <div align="center"> 
     
-![ICR SCARS](screenshots/scars.png width="300")
+![ICR SCARS](screenshots/scars.png)
 
 # Bitch-X Terminal Chat
 
