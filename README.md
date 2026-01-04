@@ -2,7 +2,7 @@
     
 ![ICR SCARS](screenshots/scars.png)
 
-# ICR CHAT - Scars
+# Bitch-X Terminal Chat
 
 </div>
 
@@ -25,21 +25,12 @@
 
 ### Installation
 
-**Windows:**
-```cmd
-mkdir bitchx-chat
-cd bitchx-chat
-mkdir handlers utils ui
-type nul > handlers\__init__.py
-type nul > utils\__init__.py
-type nul > ui\__init__.py
+```
+cd ICR-Chat-Scars
 ```
 
-**Linux/Mac:**
-```bash
-mkdir -p bitchx-chat/{handlers,utils,ui}
-cd bitchx-chat
-touch handlers/__init__.py utils/__init__.py ui/__init__.py
+```
+pip install -r requirements.txt
 ```
 
 Copy all Python files to their respective directories.
@@ -50,7 +41,8 @@ Copy all Python files to their respective directories.
 ```bash
 python server.py
 ```
-
+---
+""new terminal""
 **Start Client:**
 ```bash
 python client.py
@@ -108,7 +100,7 @@ CLIENT_CONFIG = {
 1. Download ngrok: https://ngrok.com/download
 2. Start server: `python server.py`
 3. Start ngrok: `ngrok tcp 50000`
-4. Share the ngrok URL with friends
+4. Share the ngrok URL and Port with friends
 
 ---
 
@@ -121,10 +113,7 @@ CLIENT_CONFIG = {
 **"Connection refused"**
 - Check server is running
 - Verify IP address and port
-- Check firewall settings
 
-**"No module named 'handlers'"**
-- Create `__init__.py` files in all directories
 
 **Colors not showing (Windows)**
 - Use Windows Terminal
@@ -135,20 +124,19 @@ CLIENT_CONFIG = {
 ## Project Structure
 
 ```
-bitchx-chat/
+IRC-Chat-Scars/
 ├── server.py
 ├── client.py
 ├── config.py
 ├── handlers/
-│   ├── __init__.py
 │   ├── client_handler.py
 │   ├── message_handler.py
 │   └── receive_handler.py
+│   
 ├── utils/
-│   ├── __init__.py
-│   └── colors.py
+│   ├── colors.py
+│   
 └── ui/
-    ├── __init__.py
     ├── banner.py
     └── input_handler.py
 ```
@@ -157,7 +145,7 @@ bitchx-chat/
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.9+
 - No external dependencies (standard library only)
 
 ---
@@ -167,15 +155,16 @@ bitchx-chat/
 - Messages are not encrypted
 - No user authentication
 - No message persistence
-- Use VPN or ngrok for internet connections
 - Not recommended for sensitive information
 
 ---
 
 ## License
 
-Free to use and modify.
+Unauthorized sharing is not allowed.
 
 ---
-
-**Stay Anonymous. Stay Connected.**
+while {
+developed by : leoniofficials; 
+- just a drop star ✮
+}
